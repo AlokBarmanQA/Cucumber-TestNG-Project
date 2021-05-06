@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="351775" started-at="2021-05-04T18:01:44 EDT" finished-at="2021-05-04T18:07:36 EDT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@610f7aa]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="351775" started-at="2021-05-04T18:01:44 EDT" finished-at="2021-05-04T18:07:36 EDT">
+      <class name="runners.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.TestRunner@610f7aa]" name="setUpClass" is-config="true" duration-ms="948" started-at="2021-05-04T18:01:44 EDT" finished-at="2021-05-04T18:01:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@610f7aa]" name="runScenario" duration-ms="267" started-at="2021-05-04T18:01:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-04T18:01:45 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register for the application by providing valid user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register for an account in TutorialsNinja application]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at stepDefinitions.AppRegistrationPageSteps.i_navigate_to_register_page(AppRegistrationPageSteps.java:30)
+at ✽.I navigate to Register page(file:///C:/Users/alokb/Documents/Java-Selenium/Eclipse-Workspace/Cucumber-TestNG-Project/src/test/resources/features/AppLoginPage.feature:5)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@610f7aa]" name="runScenario" duration-ms="280571" started-at="2021-05-04T18:01:45 EDT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-04T18:06:26 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Register for the application by providing valid user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Register for an account in TutorialsNinja application]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.TestRunner@610f7aa]" name="tearDownClass" is-config="true" duration-ms="589" started-at="2021-05-04T18:07:19 EDT" finished-at="2021-05-04T18:07:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
